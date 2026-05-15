@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6D4C41"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- FULL NAME -->
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:textColor="#6D4C41"
+            android:textColorHint="#A1887F"
+            android:padding="14dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- ADDRESS -->
+        <EditText
+            android:id="@+id/addressInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textColor="#6D4C41"
+            android:textColorHint="#A1887F"
+            android:padding="14dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- PHONE -->
+        <EditText
+            android:id="@+id/phoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:textColor="#6D4C41"
+            android:textColorHint="#A1887F"
+            android:inputType="phone"
+            android:padding="14dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- PAYMENT TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#6D4C41"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- PAYMENT OPTIONS -->
+        <RadioGroup
+            android:id="@+id/paymentGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPI"
+                android:textColor="#6D4C41"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Card"
+                android:textColor="#6D4C41"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash on Delivery"
+                android:textColor="#6D4C41"/>
+        </RadioGroup>
+
+        <!-- PLACE ORDER BUTTON -->
+        <Button
+            android:id="@+id/placeOrderBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:backgroundTint="#3E2723"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

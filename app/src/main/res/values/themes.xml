@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.HastaShilpa"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">#6D4C41</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">#3E2723</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">#F6F1E7</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">HastaShilpa</string>
+    <string name="app_name_text">Hasta-Shilpa</string>
+
+    <string name="app_logo_desc">App Logo</string>
+
+    <string name="trending_designs">Trending Bamboo Designs</string>
+
+    <string name="chair_title">Modern Bamboo Chair</string>
+    <string name="chair_desc">Eco-friendly modern furniture design</string>
+    <string name="bamboo_chair_desc">Bamboo Chair Image</string>
+
+    <string name="price_calculator">Price Calculator</string>
+    <string name="material_cost">Material Cost</string>
+    <string name="labor_cost">Labor Cost</string>
+    <string name="calculate_price">Calculate Price</string>
+    <string name="final_price">Final Price</string>
+
+    <string name="price_result">Final Price: ₹%1$.2f</string>
+    <string name="Blueprint_image">Blueprint Image</string>
+    <string name="width_text">Width: 30cm</string>
+    <string name="height_text">Height: 15cm</string>
+    <string name="download_blueprint">Download Blueprint</string>
+
+    <string name="material_name">Material Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="cost">Cost</string>
+    <string name="save_material">Save Material</string>
+
+</resources>

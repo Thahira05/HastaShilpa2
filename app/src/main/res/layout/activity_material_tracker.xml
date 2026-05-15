@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Tracker 🌿"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#3E2723"
+            android:layout_marginBottom="30dp" />
+
+        <EditText
+            android:id="@+id/materialName"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:hint="Material Name"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:padding="14dp"
+            android:backgroundTint="#4E342E"
+            android:textColor="#3E2723"
+            android:textColorHint="#6D4C41"
+            android:layout_marginBottom="18dp" />
+
+        <EditText
+            android:id="@+id/materialQty"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:textSize="16sp"
+            android:padding="14dp"
+            android:backgroundTint="#4E342E"
+            android:textColor="#3E2723"
+            android:textColorHint="#6D4C41"
+            android:layout_marginBottom="18dp" />
+
+        <EditText
+            android:id="@+id/materialCost"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:hint="Cost"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            android:padding="14dp"
+            android:backgroundTint="#4E342E"
+            android:textColor="#3E2723"
+            android:textColorHint="#6D4C41"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:text="Save Material"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#8BC34A" />
+
+    </LinearLayout>
+
+</ScrollView>
